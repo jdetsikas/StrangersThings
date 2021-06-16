@@ -4,8 +4,8 @@ import baseUrl from "./URL";
 import './style/Style.css'
 
 const Form = () => {
-
     let history = useHistory()
+
     async function handleSubmit(event) {
         event.preventDefault();
 
@@ -33,6 +33,7 @@ const Form = () => {
         } catch (error) {
         console.error(error);
         };
+        
         history.push("/posts");
     };
     

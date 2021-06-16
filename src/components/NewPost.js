@@ -31,8 +31,8 @@ const NewPost = ({setMakingPost}) => {
             console.error(error);
         };
         setMakingPost(false);
-        history.push("/posts")
         window.location.reload();
+        history.push("/posts")
     };
     
     return (

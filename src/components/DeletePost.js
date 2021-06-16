@@ -22,8 +22,8 @@ const DeletePost = ({setDeleting, targetId}) => {
         };
         
         setDeleting(false);
-        history.push("/posts");
         window.location.reload();
+        history.push("/posts");
     };
     
     return (

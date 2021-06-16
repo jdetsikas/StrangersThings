@@ -63,8 +63,8 @@ const EditPost = ({setEditing, targetId}) => {
         };
         
         setEditing(false);
-        history.push("/posts");
         window.location.reload();
+        history.push("/posts");
     };
     
     return (

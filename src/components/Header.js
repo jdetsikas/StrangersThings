@@ -8,8 +8,8 @@ const Header = () => {
         event.preventDefault();
         localStorage.removeItem("token");
         localStorage.removeItem("user");
-        history.push("/");
         window.location.reload();
+        history.push("/");
     };
 
     return (
