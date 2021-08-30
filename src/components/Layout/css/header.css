@@ -1,0 +1,16 @@
+#page-hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+    padding: 1.2em;
+    
+    box-shadow: 0px 2px 4px -2px black;
+    background: rgba(0, 0, 0, 0.379);
+}

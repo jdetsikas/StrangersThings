@@ -1,7 +1,6 @@
 import {useState} from "react"
-import baseUrl from "./URL"
-import EditPost from "./EditPost"
-import DeletePost from "./DeletePost"
+import baseUrl from "../URL"
+import { DeletePost, EditPost, NewPost } from '../Posts'
 
 const Profile = ({posts, setPosts}) => {
 

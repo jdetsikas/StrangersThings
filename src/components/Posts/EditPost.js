@@ -1,7 +1,7 @@
 import { useState } from "react"
 import {useHistory} from "react-router-dom"
-import baseUrl from "./URL"
-import './style/Style.css'
+import baseUrl from "../URL"
+import '../style/Style.css'
 
 const EditPost = ({setEditing, targetId}) => {
     let history = useHistory();

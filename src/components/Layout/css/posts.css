@@ -1,0 +1,27 @@
+#post-hd {
+    text-align: center;
+}
+
+.post-item {
+    margin: 20px 0px;
+    padding: 20px;
+
+    text-align: center;
+    font-size: 18pt;
+
+    background-color: rgb(225, 231, 233);
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.post-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+}
+
+.post-info {
+    text-align: left;
+    font-size: 12pt;
+}

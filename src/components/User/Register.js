@@ -1,6 +1,6 @@
 import {Link, useHistory} from "react-router-dom";
-import baseUrl from "./URL"
-import './style/Style.css'
+import baseUrl from "../URL"
+import '../style/Style.css'
 
 const Register = () => {
 

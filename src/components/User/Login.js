@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, useHistory } from "react-router-dom";
-import baseUrl from "./URL";
-import './style/Style.css'
+import baseUrl from "../URL";
+import '../style/Style.css'
 
-const Form = () => {
+const Login = () => {
     let history = useHistory()
 
     async function handleSubmit(event) {
@@ -58,4 +58,4 @@ const Form = () => {
         </> );
 };
 
-export default Form;
+export default Login;

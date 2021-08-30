@@ -1,16 +1,10 @@
 body {
     background: linear-gradient( cyan, transparent);;
-     
-   
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-main{
-	/* background: #2A88AD; */
-   
-	
-	background: #eee;
+main {
+	background: white;
 	border-radius: 10px 10px 0 0;
 	-webkit-border-radius: 10px 10px 0 0;
 	-moz-border-radius: 10px 10px 0 0;
@@ -26,9 +20,10 @@ main{
     margin-top: 100px;
     padding: 64px 24px 96px;
 } 
- #btn-register,#btn-login{
+
+#btn-register,#btn-login {
   
-   margin: 0 auto;
+    margin: 0 auto;
     box-shadow: inset 0 1px 0 0 #3985b1;
     background-color: #216288;
     border: 1px solid #17445e;
@@ -40,7 +35,7 @@ main{
     font: 12px Arial,Helvetica,sans-serif;
 }
 
-form{
+form {
 	max-width: 450px;
 	background: #FAFAFA;
 	padding: 30px;
@@ -50,16 +45,7 @@ form{
 	border: 6px solid #305A72;
 }
 
-
-
-
-
-
- input[type="text"],
- input[type="password"],
- input[type="email"]
-
- {
+ input[type="text"], input[type="password"], input[type="email"] {
      /* background-color: #257C9E; */
     margin: 0 auto;  
 	display: block;
@@ -76,108 +62,28 @@ form{
 	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
 	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
 }
-label{
+
+label {
 	
 	font: 13px Arial, Helvetica, sans-serif;
 	color: #888;
 	margin-bottom: 15px;
 }
 
- /* #search-bar,#search-term{
-	
-	
-	margin:10px ;
-	background: #FFF;
-	border-radius: 10px;
-	-webkit-border-radius:10px;
-	-moz-border-radius: 10px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-}  */
-.post-item{
-    
-    padding: 20px;
-}
-
-.post-title{
-    border: 5px outset yellow;
-    background-color: lightblue;    
-    text-align: center;
-  }
-
-  #location{
-      width: 40px;
-  }
-  .post-body{
-      height: 200px;
-    border: 5px outset blue;
-    background-color: lightblue;    
-    text-align: center;
-  }
-
-
-  .post-card{
-     border: 3px solid gray;
-  }
-
-
-.post-price{
-    border: 5px outset red;
-    background-color: lightblue;    
-    text-align: center;
-  }
-
-
-
-#page-hd{
-
-
-    background: rgba(0, 0, 0, 0.379);
-    color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0px;
-    right: 0px;
-    padding: 1.2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 4px -2px black;
-  
-}
-
-#post-hd{
-
-    text-align: center;
-   
-}
-
-#sign-up,#lgn{
-
+#sign-up,#lgn {
     background: #216288;
     
     text-align: center;
     border-radius: 10px;
     border: 3px solid cyan;
-  
-   
-
-
 }
   
-
-a{
-
+a {
 	text-decoration: none;
 	padding: 7px 25px;
 	display: inline-block;
     color: #eee;
-    
-  
 }
-
-
 
 footer {
     position: fixed;
@@ -191,7 +97,7 @@ footer {
 }
 
 
-#btn-submit{
+#btn-submit {
     background: green;
 }
 
@@ -199,23 +105,19 @@ footer {
     background: red;
 }
 
-#edit-post,
-#delete-post,
-#new-post {
-  position: fixed;
+#edit-post, #delete-post, #new-post {
+    position: fixed;
 
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   
-  backdrop-filter: blur(3px);
-  background: 0,0,0,0.4;
+    backdrop-filter: blur(3px);
+    background: 0,0,0,0.4;
 }
 
-#edit-post form,
-#delete-post form,
-#new-post form {
+#edit-post form, #delete-post form, #new-post form {
     min-width: 480px;
     padding: 3rem;
   
@@ -226,8 +128,4 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-
-
-
-
+}

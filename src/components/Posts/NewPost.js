@@ -1,5 +1,5 @@
 import { useHistory } from "react-router-dom"
-import baseUrl from "./URL"
+import baseUrl from "../URL"
 
 const NewPost = ({setMakingPost}) => {
     let history = useHistory()
